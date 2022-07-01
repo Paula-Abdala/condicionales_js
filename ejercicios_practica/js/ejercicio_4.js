@@ -11,10 +11,25 @@ let texto2 = '7';
 //  Verifique cual cual de los dos textos es mayor alfabéticamente
 //  Imprima en pantalla según corresponda
 
+if (texto1 > texto2 ) {
+    alert ("El texto1 " + texto1 + "es mayor a texto2 " + texto2) ;
+} else{
+    alert ("El texto2 " + texto2 + "es mayor a texto1 " + texto1) ;
+}
+
 //  Transforma esas variables tipo texto y almacénalas
 //  en nuevas variables númericas (Number) con parseInt()
 //  Repita el proceso, ¿Cuál de las nuevas variables es mayor?
 //  Imprima en pantalla según corresponda
+
+let texto3 = parseInt (texto1)
+let texto4 = parseInt (texto2)
+
+if(texto3 > texto4){
+    alert("El " + texto3 + "es mayor que " + texto4) ;
+} else {
+    alert("El " + texto4 + "es mayor que " + texto3) ;
+}
 
 //  Para pensar!
 //  ¿Por qué cree que texto_2 es mayor a texto_1?
